@@ -6,7 +6,7 @@
     .hero-image {
   background-image: url('./assets/dorset-sea.jpg');
   background-size:cover;
-  background-position:left;
+  background-position: start;
   height: 80vh; 
 }
 
