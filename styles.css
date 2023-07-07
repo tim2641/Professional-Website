@@ -1,0 +1,129 @@
+.navbar-brand {
+    font-family: serif;
+    font-weight: 600;
+}
+
+    .hero-image {
+  background-image: url('./assets/dorset-sea.jpg');
+  background-size:cover;
+  background-position:center;
+  height: 80vh; 
+}
+
+body {
+    background-color:#48484C;
+    color: white;
+}
+
+
+.primary-colour {
+    background-color:#48484C;
+
+}
+.secondary-color {
+    background-color: #88B3B7;
+}
+.navbar-custom  {
+  background-color: #88B3B7;
+}
+
+footer {
+    background-color: #88B3B7;
+    font-weight: 400;
+}
+.button-custom {
+    background-color: #6f90af; 
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #6f90af;
+    border-width: 2px;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #6f90af;
+    --bs-btn-hover-border-color: #6f90af;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #6f90af;
+    --bs-btn-active-border-color: #6f90af;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: ##6f90af;
+    --bs-btn-disabled-border-color: #6f90af;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-nav .nav-link,
+.navbar-custom .navbar-toggler-icon {
+  color: #fff; 
+}
+.navbar-custom .navbar-toggler {
+  border-color: #fff; 
+}
+
+.navbar-custom .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); /* White SVG icon */
+}
+.navbar-custom .navbar-toggler:focus {
+  box-shadow: none; 
+}
+
+.hero-to-card {
+    border-width: 5px;
+    width: 50%;
+    color: #000;
+}
+
+hr {
+    border-width: 3px;
+}
+
+.button-custom {
+background-color: navy; 
+color: #fff;
+font-size: 18px; 
+}
+
+.button-custom:hover {
+background-color: #48484C; 
+}
+
+/* .text-container {
+position: absolute; 
+top: 50%; 
+left: 50%; 
+transform: translate(-50%, -50%); 
+text-align: center;
+} */
+
+.text-container h1,
+.text-container p {
+color: white;
+}
+
+.magicpattern2 { 
+width: 100%;
+min-height: 30vh;
+background-size: cover;
+background-position: center center;
+background-image:url('./Screenshot\ 2023-07-05\ at\ 18.17.52.png') }
+
+.call-to-action-image {
+  background-image: url('./assets/mum-img-2.png');
+  background-size:cover;
+  height: 80vh; /* Adjust the height as needed */
+}
+
+.magicpattern4 {
+height: 100%;
+background-size:contain;
+background-position: center center;
+background: linear-gradient(180deg, #88b3b7, #48484c);
+}
+
+.navbar-nav .nav-link.active {
+  color: navy !important;
+  font-weight: 800;
+}
+footer .nav-link.active {
+    color: navy !important;
+    font-weight: 800;
+  }
+  
