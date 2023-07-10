@@ -6,31 +6,42 @@
     .hero-image {
   background-image: url('./assets/dorset-sea.jpg');
   background-size:cover;
-  background-position: end;
+  background-position:center;
   height: 80vh; 
 }
 
 body {
-    background-color:#48484C;
+    background-color: #cdcdcd;
     color: white;
-}
+  }
+  
+  .primary-color {
+    background-color: #88b8dc;
+    color: #FFFFFF;
+  }
+  
+  .secondary-color {
+    background-color: #e9e9e9;
+    color: #333333;
+  }
+  
+  .navbar-custom {
+    background-color: #99d3df;
+  }
 
-
-.primary-colour {
-    background-color:#48484C;
-
-}
-.secondary-color {
-    background-color: #88B3B7;
-}
-.navbar-custom  {
-  background-color: #88B3B7;
-}
-
-footer {
-    background-color: #88B3B7;
+  .magicpattern4 {
+    height: 100%;
+    background-size:contain;
+    background-position: center center;
+    background: linear-gradient(180deg, #88b8dc,#cdcdcd);
+    }
+  
+  footer {
+    background-color: #99d3df;
+    color: #FFFFFF;
     font-weight: 400;
-}
+  }
+  
 .button-custom {
     background-color: #6f90af; 
     --bs-btn-color: #fff;
@@ -111,12 +122,7 @@ background-image:url('./Screenshot\ 2023-07-05\ at\ 18.17.52.png') }
   height: 80vh; /* Adjust the height as needed */
 }
 
-.magicpattern4 {
-height: 100%;
-background-size:contain;
-background-position: center center;
-background: linear-gradient(180deg, #88b3b7, #48484c);
-}
+
 
 .navbar-nav .nav-link.active {
   color: navy !important;
@@ -127,3 +133,23 @@ footer .nav-link.active {
     font-weight: 800;
   }
   
+  body {
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 400;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+  }
+  
+  p {
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 400;
+  }
+  
+  .navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+  }
+ 
